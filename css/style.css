@@ -1,0 +1,265 @@
+.hero {
+    background: url('../img v2/hero-bg.png') center bottom no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 50dvh;
+}
+
+.hero-title {
+    color: white;
+}
+
+.light-blue {
+    color: rgb(138, 195, 214);
+    text-decoration: underline;
+}
+
+.btn-start {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-service {
+    background-color: rgba(255, 255, 255, 0.2);
+    outline: 1px solid black;
+    color: white;
+}
+
+.button {
+    border-radius: 20px;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: medium;
+    transition-duration: 0.5s;
+}
+
+.button:hover {
+    filter: brightness(85%);
+    text-decoration: none;
+    color: white;
+}
+
+.hero .row {
+    top: 15%;
+    left: 15%;
+    width: 70%;
+    position: absolute;
+}
+
+.about-us {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.intro {
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.about-list {
+    text-align: left;
+}
+
+.img-w{
+    width: 100px;
+}
+
+.icon {
+    transition-duration: 0.5s;
+}
+
+.icon:hover {
+    transform: translateY(-5px);
+}
+
+.about-two {
+    padding-top: 20px;
+    text-align: left;
+}
+
+.services {
+    background-color: rgb(221, 241, 255);
+    padding: 40px 0px;
+    margin-top: 20px;
+}
+
+.service-row {
+    gap: 50px;
+}
+
+.service {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition-duration: 0.5s;
+    min-width: 40%;
+    flex: 1;
+}
+
+.service:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.39);
+    transform: translateY(-3px);
+}
+
+.service h4 {
+    transition-duration: 0.5s;
+}
+
+.service:hover h4 {
+    color: blue;
+}
+
+.why-us {
+    background-color: #004a99;
+    padding: 40px 0px;
+    color: white;
+}
+
+.card-row {
+    gap: 50px;
+}
+
+.us-item {
+    flex: 1;
+    background-color: rgba(0, 0, 0, 0.2);
+    min-width: 25%;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    transition-duration: 0.5s;
+}
+
+.us-item:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+    transform: translateY(-5px);
+}
+
+.us-item img {
+    padding: 20px 0px;
+}
+
+.us-count {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.portfolio {
+    padding-top: 40px;
+}
+
+.btn-active {
+    background-color: #004a99;
+    text-decoration: none;
+    color: white;
+    flex: 1;
+    max-width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+
+.btn-active:hover {
+    background-color: lightgray;
+}
+
+
+.btn-small {
+    background-color: lightgray;
+    text-decoration: none;
+    color: #004a99;
+    flex: 1;
+    max-width: 150px;
+    padding: 10px;
+    border-radius: 20px;
+    transition-duration: 0.5s;
+}
+
+.btn-small:hover {
+    background-color: #004a99;
+    color: white;
+}
+
+.portfolio-btns {
+    gap: 20px;
+}
+
+.portfolio-col {
+    padding: 20px;
+}
+
+.portfolio-col > img {
+    border-radius: 10px;
+    margin: 10px 0px;
+    transition-duration: 0.5s;
+}
+
+.portfolio-col > img:hover {
+    filter: brightness(85%) blur(3px) sepia(0%);
+}
+
+.testimonials {
+    background-color: rgb(221, 241, 255);
+    padding: 40px 0px;
+    margin-top: 20px;
+}
+
+.test-image {
+    width: 10%;
+}
+
+.test-text {
+    min-width: 20%;
+    max-width: 60%;
+}
+
+.testimonial {
+    gap: 10px;
+}
+
+.team {
+    padding: 40px 0px;
+}
+
+.team img {
+    transition-duration: 0.5s;
+}
+
+.team img:hover {
+    filter: brightness(85%) sepia(100%);
+    transform: scale(1.2);
+}
+
+.clients {
+    background-color: rgb(221, 241, 255);
+    padding: 40px 0px;
+    margin-top: 20px;
+}
+
+.clientele > div {
+    background-color: white;
+    outline: 1px solid rgba(0, 0, 0, 0.1);
+    transition-duration: 0.5s;
+}
+
+.clientele > div:hover {
+    background-color: rgb(222, 222, 222);
+    outline: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+    background-color: rgb(66, 66, 203);
+    color: white;
+    padding: 40px;
+}
+
+.copyright {
+    background-color: rgb(35, 35, 162);
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+.contact{
+    padding: 40px 0px;
+}
